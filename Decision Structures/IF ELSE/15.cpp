@@ -6,33 +6,38 @@ int main() {
   string estado, M, A, S, Q;
   float a1, b, c;
   
-  cout << "Insira um número: " << endl;
+  cout << "Insira um nÃºmero: " << endl;
   cin >> b;
-  cout << "Insira segundo número: " << endl;
+  cout << "Insira segundo nÃºmero: " << endl;
   cin >> c;
 
-  cout << "Escolha a operação: " << endl;
+  cout << "Escolha a operaÃ§Ã£o: " << endl;
   cout << "A (Soma) " << endl;
-  cout << "S (Subtração) " << endl;
-  cout << "M (Multiplicação) " << endl;
-  cout << "Q (Divisão) " << endl;
+  cout << "S (SubtraÃ§Ã£o) " << endl;
+  cout << "M (MultiplicaÃ§Ã£o) " << endl;
+  cout << "Q (DivisÃ£o) " << endl;
   cout << "Digite a letra"<<endl;
   cin >> a1;
 
   if (estado == A) {
-    cout << "O resultado é: " << b + c << endl;
+    cout << "O resultado Ã©: " << b + c << endl;
   }
+  
   if (estado == S){
-    cout << "O resultado é: " << b - c << endl;
+    cout << "O resultado Ã©: " << b - c << endl;
   }
+  
   if (estado == M){
-    cout << "O resultado é: " << b * c << endl;
+    cout << "O resultado Ã©: " << b * c << endl;
   }
+  
   if (estado == Q){
-    cout << "O resultado é: " << b / c << endl;
+    cout << "O resultado Ã©: " << b / c << endl;
   }
+  
   else {
-    cout << "Erro - Operação inválida.";
+    cout << "Erro - OperaÃ§Ã£o invÃ¡lida.";
   }
+  
   return 0;
 }
