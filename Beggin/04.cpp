@@ -1,17 +1,18 @@
-//Exercicio 3 da lista 1
 #include <iostream>
 using namespace std;
+
 int main (){
   float alt, peso, IMC;
 
   cout<<"Informe o seu peso."<<endl;
   cin>>peso;
+  
   cout<<"Informe a sua altura."<<endl;
   cin>>alt;
 
   IMC= peso/(alt*alt);
 
-  cout<<"O seu Índice de Massa Corporal (IMC) é: "<<IMC;
+  cout<<"O seu Ãndice de Massa Corporal (IMC) Ã©: "<<IMC;
 
-return 0;
+  return 0;
 }
