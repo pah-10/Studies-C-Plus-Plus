@@ -1,4 +1,4 @@
-//Exercício 2 da lista 3
+//ExercÃ­cio 2 da lista 3
 
 #include <iostream>
 using namespace std;
@@ -12,7 +12,7 @@ int main() {
   
   ma= (n1+n2)/2;
 
-  cout<<"A média aritmética de suas notas é " <<ma << endl;
+  cout<<"A mÃ©dia aritmÃ©tica de suas notas Ã© " <<ma << endl;
 
   if(ma < 3){
     cout<<"Reprovado";
