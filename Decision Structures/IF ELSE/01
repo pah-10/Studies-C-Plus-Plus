@@ -17,7 +17,7 @@ int main() {
 
   ma= (n1+n2+n3+n4)/4;
 
-  cout<<"A média aritmética de suas notas é " <<ma << endl;
+  cout<<"A mÃ©dia aritmÃ©tica de suas notas Ã© " <<ma << endl;
 
 //Se a media das notas for maior ou igual a 7
   if (ma >= 7){
