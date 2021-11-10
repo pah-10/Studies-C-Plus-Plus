@@ -20,9 +20,9 @@ string hexa(int base, int quociente){
     string convertido = "", invertida = "";
     int resto = 0;
 
-  for(int expoente = 0; quociente != 0; expoente++){
-    resto = quociente % base;
-    quociente = quociente / base;
+	for(int expoente = 0; quociente != 0; expoente++){
+    	resto = quociente % base;
+    	quociente = quociente / base;
 
 		if(resto == 10){
 			convertido += 'A'; 
@@ -39,24 +39,24 @@ string hexa(int base, int quociente){
 		}else{
 			convertido +=  to_string(resto);
 		}
-  }
+	}
 
 	//inverte a string
 	for(int i = 0; i < convertido.length(); i++){
-  	invertida = convertido[i] + invertida; 
+  		invertida = convertido[i] + invertida; 
 	}
 
 	return invertida;
 }
 
 int main() {
-  int base, qtd;
+	int base, qtd;
 	char decisao;
 
 	do{
 		system("clear");
 
-  	cout<<"====== CONVERSÃO DECIMAL P/ OUTRAS BASES ======"<<endl<<endl;
+  		cout<<"====== CONVERSÃO DECIMAL P/ OUTRAS BASES ======"<<endl<<endl;
 
 		cout<<"\tDigite a base desejada: ";
 		cin>>base;
@@ -82,5 +82,5 @@ int main() {
 
 	cout<<endl<<"ATÉ A PROXIMA XOXO!"<<endl;
 
-  return  0;
+  return 0;
 }
